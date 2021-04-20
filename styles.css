@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Starts */
+
+.header-left img {
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-middle {
+    display: flex;
+    flex: 0.7;
+    padding: 10px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+.header-middle input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+.header-right {
+    display: flex;
+    padding-right: 20px;
+}
+
+.header-right span {
+    padding-right: 10px;
+}
+
+/* Header Ends */
+
+/* Sidebar */
+
+.main-body {
+    display: flex;
+}
+
+.sidebar {
+    flex: 12%;
+    padding-right: 20px;
+    border-right: 1px solid whitesmoke;
+}
+
+.sidebar-compose {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar-compose span {
+    margin-right: 5px;
+}
+
+.sidebar-option {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: lighter;
+}
+
+.sidebar-option span {
+    padding: 5px;
+}
+
+.sidebar-option h3 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sidebar-option:hover {
+    cursor: pointer;
+    color: rgb(134, 40, 40);
+    background-color: rgba(255,0,0,0.1);
+}
+
+.mainbar {
+    flex: 88%;
+    overflow: scroll;
+}
+
+.mainbar-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    align-items: center;
+}
+
+.mainbar-header-left {
+   display: flex;
+   align-items: center;
+}
+
+.mainbar-header-right {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.mainbar-header .material-icons {
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Mail Type */
+
+.mailtype {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: lighter;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+}
+
+.mailtype-options {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    flex-basis: 240px;
+    padding: 15px;
+    cursor: pointer;
+    border-width: 0;
+}
+
+.mailtype-options span {
+    margin-right: 15px;
+}
+
+
+
+
+.active {
+    color: rgba(255,0,0,0.8);
+    border-bottom: 5px solid rgba(255,0,0,0.8);
+}
+
+
+.mailtype-options:hover {
+    background-color: whitesmoke;
+}
+
+.sidebaroption-active {
+    color: rgba(255,0,0,0.8);
+    background-color: rgba(255,0,0,0.1);
+}
+
+
+body {
+    overflow-y: hidden;
+}
+
+/* Email Row */
+
+.emailrow-left {
+    display: flex;
+    flex-basis: 200px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.emailrow-left .material-icons {
+    margin-right: 10px;
+}
+
+.emailrow-middle {
+    display: flex;
+    flex-basis: 800px;
+    align-items: center;
+}
+.emailrow {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.emailrow:hover {
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+.header-left p {
+    display: block;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.header-left .material-icons span:hover p{
+    display: block;
+}
+
+
+
+
